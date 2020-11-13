@@ -1,2 +1,4 @@
 C:\Users\Juyoung Park\Desktop\MS\x64\Debug\MS.exe
 C:\Users\Juyoung Park\Desktop\MS\x64\Debug\MS.pdb
+C:\Users\Juyoung Park\Desktop\MS\MS1\x64\Debug\MS.exe
+C:\Users\Juyoung Park\Desktop\MS\MS1\x64\Debug\MS.pdb

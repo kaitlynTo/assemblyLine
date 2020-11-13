@@ -1,7 +1,7 @@
 // Name: Juyoung Park
 // Seneca Student ID: 150155182
 // Seneca email: jpark214@myseneca.ca
-// Date of completion: 
+// Date of completion: 11/13/2020
 //
 // I confirm that I am the only author of this file
 //   and the content was created entirely by me.
@@ -73,13 +73,13 @@ void Station::updateQuantity()
 //based on full condition, display with formatting
 void Station::display(std::ostream& os, bool full) const
 {
-	os << "[" << setw(3) << setfill('0') << m_stationID << "]";
+	os << "[" << right << setw(3) << setfill('0') << m_stationID << "]";
 	os << " Item: " << left << setw(m_widthField) <<setfill(' ') << getItemName();
-	os << " [" << setw(6) << setfill('0') << m_serialNumber << "]";
+	os << " [" << right << setw(6) << setfill('0') << m_serialNumber << "]";
 
 	if (full)
 	{
-		os << " Quantity: " << setw(m_widthField) << setfill(' ') << m_qtyInStock;
+		os << " Quantity: " << left << setw(m_widthField) << setfill(' ') << m_qtyInStock;
 		os << " Description: " << m_station_desc;
 	}
 
